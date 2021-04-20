@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+      <script src="p5.min.js"></script>
+
+  </head>
+  <body>
+    <div id="Main" style="display:flex; flex-direction:column; justify-content:center; border:3px dotted black; padding-top:10px, padding-bottom:10px">
+      <div style="display:flex; justify-content:center">
+        <script src="script.js"></script>
+        <input type=button value="Translate to French" onClick="button(`French`)">
+        <input type=button value="Translate to English"
+        onClick="button(`English`)">
+      </div>
+    <textarea id="text" cols="50" rows="15" style="margin:auto"></textarea>
+    </div>
+
+  </body>
+</html>
